@@ -1,0 +1,117 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Abel";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: .1em;
+  color: #4c4c4c;
+}
+
+/* header
+------------------------------------- */
+
+.flexible-images {
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  background-image:  url(../img/img_money.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 250px;
+  }
+}
+
+/* main
+------------------------------------- */
+#main-contents {
+  padding: 50px 0;
+}
+
+.text-top h1 {
+  font-size: 4.0rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-box {
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  background-color: #f3f3f3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.text-box h1 {
+  font-size: 3.0rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007b43;
+}
+
+/* footer
+------------------------------------- */
+
+footer {
+  text-align: center;
+}
+
+ .bottom {
+   height: 220px;
+   background-color: #e5e4e6;
+   text-align: center;
+ }
+
+ .bottom h1 {
+   font-size: 3.2rem;
+   padding-top: 20px;
+ }
+
+ .bottom a {
+   text-decoration: none;
+ }
+
+ .btn {
+   font-weight: bold;
+   display: inline-block;
+   width: 200px;
+   background-color: #007b43;
+   color: #fff;
+   margin-top: 20px;
+   padding: 5px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .btn:hover {
+   background-color: rgba(102, 204, 153, .9);
+ }
+
+.copy {
+  background-color: #e5e4e6;
+  color: #fff;
+  text-transform: uppercase;
+}
