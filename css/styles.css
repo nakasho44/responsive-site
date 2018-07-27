@@ -16,10 +16,10 @@ body {
 /* header
 ------------------------------------- */
 
-.flexible-images {
-  max-width: 100%;
-  height: auto;
-}
+/*.flexible-images {*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 .box {
   background-image:  url(../img/img_money.jpg);
